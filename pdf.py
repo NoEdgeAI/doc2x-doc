@@ -4,7 +4,15 @@ url = "https://api.doc2x.noedgeai.com/api/v1/pdf"
 api_key = ""
 filepath = "test.pdf"
 
-res = rq.post(url, files={"file": open(filepath, "rb")}, headers={"Authorization": "Bearer " + api_key}, stream=True)
+res = rq.post(
+    url,
+    files={"file": open(filepath, "rb")},
+    data={
+        "ocr": "true" # 'true' | 'false'
+    },
+    headers={"Authorization": "Bearer " + api_key},
+    stream=True,
+)
 
 if res.status_code == 200:
     for line in res.iter_lines():
