@@ -35,6 +35,10 @@ def get_status(uid: str):
     raise Exception(f"get status failed: {data}")
 
 
+#! 此上部分与pdf.py相同，是用于上传文件并等待解析完成的代码
+#! The above part is the same as pdf.py, which is used to upload files and wait for parsing to complete
+
+
 def export_file(uid: str, to_format: str, formula_mode: str):
     url = f"{base_url}/api/v2/convert/parse"
     headers = {"Authorization": f"Bearer {secret}"}
