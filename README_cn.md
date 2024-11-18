@@ -1,8 +1,9 @@
 
 <div align="center">
 
-<h1 aligh="center">
-<img src="doc2x.svg" width="70">  Doc2X 文档
+<h1 align="center" style="display: flex; align-items: center; justify-content: center;">
+  <img src="doc2x.svg" width="40" style="margin-right: 15px;">
+  <span>Doc2X 文档</span>
 </h1>
 
 一些使用 Doc2X API 的示例。

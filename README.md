@@ -1,8 +1,9 @@
 
 <div align="center">
 
-<h1 aligh="center">
-<img src="doc2x.svg" width="70">  Doc2X Docs
+<h1 align="center" style="display: flex; align-items: center; justify-content: center;">
+  <img src="doc2x.svg" width="40" style="margin-right: 15px;">
+  <span>Doc2X Docs</span>
 </h1>
 
 Some examples to use the Doc2X API.
