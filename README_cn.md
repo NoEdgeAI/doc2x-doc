@@ -9,7 +9,8 @@
 
 </br>
 </br>
-请参考 [feishu](https://noedgeai.feishu.cn/wiki/Q8QIw3PT7i4QghkhPoecsmSCnG1) 以获得更好的阅读体验。
+
+请参考 [飞书](https://noedgeai.feishu.cn/wiki/Q8QIw3PT7i4QghkhPoecsmSCnG1) 以获得更好的阅读体验。
 
 # Python
 
