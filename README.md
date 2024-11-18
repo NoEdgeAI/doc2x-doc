@@ -1,6 +1,28 @@
-# doc2x-docs
-Please refer to the [feishu](https://noedgeai.feishu.cn/wiki/YhD2w1Eg2ieXEjkOmD7cp1YWnEh) for better reading experience.
 
-# python package
+<div align="center">
 
-https://github.com/Menghuan1918/pdfdeal
+# Doc2X Docs
+
+Some examples to use the Doc2X API.
+
+English/[简体中文](README_cn.md)
+
+</div>
+
+</br>
+</br>
+Please refer to the [feishu](https://noedgeai.feishu.cn/wiki/Q8QIw3PT7i4QghkhPoecsmSCnG1) for better reading experience.
+
+# Python
+
+## requests
+Using `requests` to using API.
+- [Convert a PDF file to json](Python/requests/pdf.py)
+- [Convert a PDF file to docx](Python/requests/pdf2file.py)
+
+## pdfdeal
+
+[pdfdeal](https://github.com/Menghuan1918/pdfdeal) is a wrapper package for the Doc2X API
+- [Convert a PDF file to docx](Python/pdfdeal/convert_single_pdf.py)
+- [Convert all PDF files in a folder to docx](Python/pdfdeal/convert_folder_pdfs.py)
+- [Convert all PDF files in a folder to docx and markdown](Python/pdfdeal/convert_pdfs_multiple_types.py)
