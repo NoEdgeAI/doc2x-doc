@@ -1,7 +1,9 @@
 
 <div align="center">
 
-# Doc2X 文档
+<h1 aligh="center">
+<img src="doc2x.svg" width="70">  Doc2X 文档
+</h1>
 
 一些使用 Doc2X API 的示例。
 

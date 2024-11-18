@@ -1,7 +1,9 @@
 
 <div align="center">
 
-# Doc2X Docs
+<h1 aligh="center">
+<img src="doc2x.svg" width="70">  Doc2X Docs
+</h1>
 
 Some examples to use the Doc2X API.
 
