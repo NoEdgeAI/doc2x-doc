@@ -30,3 +30,14 @@ Using `requests` to using API.
 - [Convert a PDF file to docx](Python/pdfdeal/convert_single_pdf.py)
 - [Convert all PDF files in a folder to docx](Python/pdfdeal/convert_folder_pdfs.py)
 - [Convert all PDF files in a folder to docx and markdown](Python/pdfdeal/convert_pdfs_multiple_types.py)
+- [Convert HTML tables in text to Markdown format](Python/pdfdeal/html2md.py), note that since Markdown tables do not support merged cells, data misalignment may occur when there are merged cells (especially vertically merged cells).
+
+## Text Processing
+
+- [Convert HTML tables in text to Markdown format (using beautifulsoup4)](Python/texts/html2md.py), note that since Markdown tables do not support merged cells, data misalignment may occur when there are merged cells (especially vertically merged cells).
+
+# TypeScript
+
+## Text Processing
+
+- [Convert HTML tables in text to Markdown format](TypeScript/texts/html2md.ts), note that since Markdown tables do not support merged cells, data misalignment may occur when there are merged cells (especially vertically merged cells).
