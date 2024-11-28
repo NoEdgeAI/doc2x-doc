@@ -28,3 +28,14 @@
 - [将 PDF 文件转换为 docx](Python/pdfdeal/convert_single_pdf.py)
 - [将文件夹中的所有 PDF 文件转换为 docx](Python/pdfdeal/convert_folder_pdfs.py)
 - [将文件夹中的所有 PDF 文件转换为 docx 和 markdown](Python/pdfdeal/convert_pdfs_multiple_types.py)
+- [将文本中HTML格式表格转换为Markdown格式](Python/pdfdeal/html2md.py)，注意由于Markdown表格并不支持合并单元格，因此在有合并单元格(尤其是纵向的合并单元格)时可能会出现数据错位的现象。
+
+## 文本处理
+
+- [将文本中HTML格式表格转换为Markdown格式(使用beautifulsoup4)](Python/texts/html2md.py)，注意由于Markdown表格并不支持合并单元格，因此在有合并单元格(尤其是纵向的合并单元格)时可能会出现数据错位的现象。
+
+# TypeScript
+
+## 文本处理
+
+- [将文本中HTML格式表格转换为Markdown格式](TypeScript/texts/html2md.ts)，注意由于Markdown表格并不支持合并单元格，因此在有合并单元格(尤其是纵向的合并单元格)时可能会出现数据错位的现象。
